@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sushma</title>
+    <style>
+        body
+        {
+            background-color: purple;
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            flex-direction: column;
+            margin: 50px 50px 0 50px;
+            
+        }
+        .logo
+        {
+            width: 200px;
+            height: 200px;
+            border-radius:40% ;
+        }
+        h1
+        {
+            font-size: 6rem;
+            color: white;
+        }
+        .grid-container
+        {
+            flex: 1;
+        }
+        .card
+        {
+            width: 45%;
+        }
+        .title-image
+        {
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin-right: 30px;
+        }
+        .first
+        {
+            float: left;
+        }
+        .second
+        {
+            float: right;
+        }
+        footer
+        {
+            text-align: right;
+      
+             color:black;
+        }
+        p
+        {
+            color: white;
+        }
+        @media(max-width:680px)
+        {
+            .logo
+            {
+
+                width: 100px;
+                height: 100px;
+            }
+            h1
+            {
+                font-size: 3rem;
+            }
+            .card
+            {
+                width: 100%;
+                display: block;
+                margin-bottom: 10px;
+                text-align: justify;
+            }
+            .card img
+            {
+                width:100%;
+                margin-bottom: 10px;
+                display: inline;
+                object-fit: cover;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div class="grid-container">
+        <img class="logo" src="./assets\images/sushma logo.png" alt="logo of sushma">
+        <h1>my own first website</h1>
+        <div class="own card">
+            <h2>my  favourite historical places </h2>
+        </div>
+        <div class="first card">
+            <img class="title-image" src="assets\images/warangal fort.png" alt="warangal fort"/>
+            <p>The fort was constructed in the 13th century in the reign of the Kakateya King Ganapati Deva.
+                The Warangal fort is most famous for its graceful and finitely carved arches and pillars. 
+                This fort has four large stone gateways.</p>
+        </div>
+        <div class="second card">
+            <img  class="title-image"src="assets\images/bhadrakali temple.png" alt="bhadrakali temple">
+            <p>One of the most famous Bhadrakali temple, situated at Vellayani, Trivandrum, Kerala conducting longest non-pilgrimage festival in India (60 days of festival once in 3 years).
+                 Idol in this temple is very huge and made up of pure gold.
+                  Temple is very ancient and it is calculated as 800 years old.</p>
+        </div>
+       
+    </div>
+    <footer>
+        <p>sushma.web.develop</p>
+    </footer>
+</body>
+</html>
